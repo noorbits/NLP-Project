@@ -1,2 +1,8 @@
 #!/bin/bash
-python3 src/model.py
+set -e
+
+echo "🚀 Running NLP Project..."
+
+python3 src/main.py
+
+echo "✅ Finished!"
